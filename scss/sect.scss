@@ -1,0 +1,126 @@
+.sect {
+  &--home-img {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("../assets/images/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &--speed-img {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("../assets/images/speed.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &--link-img {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("../assets/images/link.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &--cron-img {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("../assets/images/cronens.PNG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &--tall {
+    min-height: calc(100vh);
+  }
+
+  &--med {
+    min-height: 400px;
+  }
+
+  &--med-tall {
+    min-height: 500px;
+  }
+
+  &--pad-top {
+    padding-top: 75px;
+  }
+
+  &--short {
+    min-height: 75px;
+  }
+
+  &--black {
+    background-color: black;
+  }
+
+  &--toupe {
+    background-color: #795663;
+  }
+
+  &--gray {
+    background-color: #dad6d6;
+  }
+
+  &--flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  &--bottom {
+    display: flex;
+    align-items: flex-end;
+    // justify-content: flex-end;
+    padding-left: 50px;
+    padding-bottom: 25px;
+  }
+
+  &--border {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #dad6d6;
+  }
+
+  &--center {
+    display: flex;
+    // flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  &--center-list {
+    // display: flex;
+    // flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  &__blog {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+}

@@ -1,0 +1,79 @@
+.about-image {
+  display: flex;
+  height: 150px;
+  width: 250px;
+  background-color: green;
+
+  &--normal {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  &__one {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../assets/images/about-image-one.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__two {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../assets/images/aboute-image\ two.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__three {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(3, 1, 1, 0.5)
+      ),
+      url("../assets/images/aboute-image-three.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__four {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../assets/images/about-image-four.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__five {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../assets/images/about-image-five.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.right-pad {
+  padding-right: 50px;
+  padding-left: 20px;
+
+  &--normal {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}

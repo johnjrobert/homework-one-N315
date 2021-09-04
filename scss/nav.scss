@@ -1,0 +1,23 @@
+.navigation {
+  &--short {
+    min-height: 75px;
+  }
+
+  &--black {
+    background-color: black;
+  }
+
+  &--flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  &--wide {
+    width: 100%;
+  }
+
+  &--fixed {
+    position: fixed;
+  }
+}

@@ -1,0 +1,12 @@
+.header--white {
+  color: #dad6d6;
+}
+.header--med {
+  font-size: 50px;
+}
+.header--large {
+  font-size: 200px;
+}
+.header--fancy {
+  font-family: fancy-font;
+}

@@ -1,0 +1,22 @@
+.desc {
+  display: flex;
+  flex-direction: column;
+  //   justify-content: flex-end;
+  font-family: Arial, Helvetica, sans-serif;
+
+  &__title {
+    font-size: 35px;
+  }
+
+  &__byline {
+    font-size: 25px;
+  }
+
+  &__synop {
+    font-size: 20px;
+  }
+
+  &--white {
+    color: #dad6d6;
+  }
+}

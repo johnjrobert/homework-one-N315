@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navi {
+  text-decoration: none;
+  color: #dad6d6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+footer {
+  color: #dad6d6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: fancy-font;
+  src: url(../css/fonts/TheHills.ttf);
+}

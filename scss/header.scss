@@ -1,0 +1,39 @@
+.header {
+  // padding-top: 400px;
+  &__title {
+  }
+
+  &--white {
+    color: #dad6d6;
+  }
+
+  &--toupe {
+    color: #795663;
+  }
+
+  &--small {
+    font-size: 45px;
+  }
+
+  &--med {
+    font-size: 95px;
+    // padding-bottom: 50px;
+  }
+
+  &--large {
+    font-size: 200px;
+  }
+
+  &--fancy {
+    font-family: fancy-font;
+  }
+
+  &--normal {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  &--padding-top {
+    padding-top: 30px;
+    text-align: center;
+  }
+}

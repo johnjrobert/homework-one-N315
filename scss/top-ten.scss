@@ -1,0 +1,170 @@
+.top-ten-header {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../assets/images/top-ten-head.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: flex-end;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.film-rank {
+  height: 75%;
+  width: 100%;
+  display: flex;
+
+  &--shawshank {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../assets/images/shawshank.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &--umb {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../assets/images/umb.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &--scenes {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../assets/images/scenes.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &--brood {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../assets/images/brood.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &--american {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../assets/images/american.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &--hotrod {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../assets/images/hotrod.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &--days {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../assets/images/days.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &--zodiac {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../assets/images/zodiac.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &--before {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../assets/images/before.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &--laughed {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../assets/images/laughed.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__rank {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dad6d6;
+  }
+
+  &__title {
+    font-family: fancy-font;
+    color: #dad6d6;
+    padding-left: 25px;
+  }
+
+  &--large {
+    font-size: 100px;
+  }
+
+  &--xlarge {
+    font-size: 150px;
+  }
+}
+
+.film-rank-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
